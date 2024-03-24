@@ -11,7 +11,7 @@ ffibuilder.cdef("""
 
 
 #
-ffibuilder.set_source("_my_math",
+ffibuilder.set_source("_time_calculous",
 """
  #include <math.h> // the C header of the library
 """,

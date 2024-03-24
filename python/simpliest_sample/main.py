@@ -1,4 +1,4 @@
-from _my_math import lib
+from _time_calculous import lib
 
 a = lib.sqrt(4.5)
 b = lib.sin(1.2)
