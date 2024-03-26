@@ -12,4 +12,7 @@ root.title("Time calculous")
 root.iconbitmap('logo.ico')
 
 #
+root.geometry("500x500")
+
+#
 root.mainloop()
