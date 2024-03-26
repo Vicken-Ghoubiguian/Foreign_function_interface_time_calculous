@@ -9,6 +9,9 @@ root = Tk()
 root.title("Time calculous")
 
 #
+root.iconbitmap('logo.ico')
+
+#
 frm = ttk.Frame(root, padding=10)
 
 #
