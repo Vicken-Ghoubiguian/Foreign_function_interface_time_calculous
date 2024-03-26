@@ -6,6 +6,9 @@ from tkinter import ttk
 root = Tk()
 
 #
+root.title("Time calculous")
+
+#
 frm = ttk.Frame(root, padding=10)
 
 #
