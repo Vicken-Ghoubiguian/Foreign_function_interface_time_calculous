@@ -1,18 +1,21 @@
-#
+# Importation of all useful libraries
 from tkinter import *
 from tkinter import ttk
 
 #
 root = Tk()
 
-#
+# Definition of the window's title
 root.title("Time calculous")
 
 #
 root.iconbitmap('logo.ico')
 
-#
+# Definition of the window's size
 root.geometry("1000x700")
+
+#
+root.resizable(False, False)
 
 #
 tabs = ttk.Notebook(root)
