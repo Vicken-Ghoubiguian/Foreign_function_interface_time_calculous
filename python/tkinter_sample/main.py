@@ -12,7 +12,7 @@ root.title("Time calculous")
 root.iconbitmap('logo.ico')
 
 #
-root.geometry("500x500")
+root.geometry("1000x700")
 
 #
 tabs = ttk.Notebook(root)
