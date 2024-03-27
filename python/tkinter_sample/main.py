@@ -21,16 +21,11 @@ tabs = ttk.Notebook(root)
 tabl = ttk.Frame(tabs)
 tab2 = ttk.Frame(tabs)
 tab3 = ttk.Frame(tabs)
-#tab4 = ttk.Frame(tabs)
-#tab5 = ttk.Frame(tabs)
 
 #
 tabs.add(tabl, text="Wished weekday in a choosen month")
 tabs.add(tab2, text="Calculations on date and time")
 tabs.add(tab3, text="Number of weeks in a year according to the iso norm")
-# tabs.add(tab3, text="....3....")
-# tabs.add(tab4, text="....4....")
-# tabs.add(tab5, text="....5....")
 
 #
 tabs.pack(expand=1, fill='both')
