@@ -14,7 +14,7 @@ root.iconbitmap('logo.ico')
 # Definition of the window's size
 root.geometry("1000x700")
 
-#
+# Make the window not resizable
 root.resizable(False, False)
 
 #
