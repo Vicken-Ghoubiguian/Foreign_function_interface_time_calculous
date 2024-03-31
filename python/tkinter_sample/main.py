@@ -31,13 +31,14 @@ tabs.add(tab2, text="Calculations on date and time")
 tabs.add(tab3, text="Number of weeks in a year according to the iso norm")
 
 # Later for 'tab1'
-l1=ttk.Label(tabl,text="I am tab-1",width=10).grid(column=0, row=0, padx=30, pady=30)
+l1=ttk.Label(tabl,text="I am tab-1", width=10).grid(column=0, row=0, padx=30, pady=30)
 
 # Later for 'tab2'
-l2=ttk.Label(tab2,text="I am tab-2",width=10).grid(column=0, row=0, padx=30, pady=30)
+l2=ttk.Label(tab2,text="I am tab-2", width=10).grid(column=0, row=0, padx=30, pady=30)
 
 # Later for 'tab3'
-l3=ttk.Label(tab3,text="I am tab-3",width=10).grid(column=0, row=0, padx=30, pady=30)
+l3=ttk.Label(tab3,text="Please enter the year you want the number of weeks for :", width=50).grid(column=0, 
+row=0, padx=350, pady=200)
 
 #
 tabs.pack(expand=1, fill='both')
