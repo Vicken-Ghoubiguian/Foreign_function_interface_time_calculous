@@ -38,7 +38,10 @@ l2=ttk.Label(tab2,text="I am tab-2", width=10).grid(column=0, row=0, padx=30, pa
 
 # Later for 'tab3'
 l3=ttk.Label(tab3,text="Please enter the year you want the number of weeks for :", width=50).grid(column=0, 
-row=0, padx=350, pady=200)
+row=0, padx=150, pady=50)
+
+#
+s3 = ttk.Separator(tab3, orient='horizontal').place(relx=0, rely=0.47, relwidth=1, relheight=1)
 
 #
 tabs.pack(expand=1, fill='both')
