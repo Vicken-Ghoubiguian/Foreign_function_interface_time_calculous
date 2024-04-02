@@ -11,10 +11,15 @@ api = Api(
 #
 api.init_app(app)
 
-@api.route('/hello')
+@api.route('/number_of_weeks_in_a_year_according_to_the_iso_norm')
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'world'}
+
+        """
+        Get how many weeks there are in the wished year
+        """
+
+        return {'hello': 'world'}, 200
 
 if __name__ == '__main__':
     app.run(debug=True)
