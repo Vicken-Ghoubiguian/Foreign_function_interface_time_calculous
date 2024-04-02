@@ -5,7 +5,7 @@ app = Flask(__name__)
 api = Api(
 	title='Time_calculous API 🕒',
 	version='1.0',
-	description=''
+	description='API to use all of the time_calculous C library'
 )
 
 #
