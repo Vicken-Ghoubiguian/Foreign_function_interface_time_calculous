@@ -12,7 +12,7 @@ api = Api(
 api.init_app(app)
 
 @api.route('/number_of_weeks_in_a_year_according_to_the_iso_norm')
-class HelloWorld(Resource):
+class NumberWeeksInYearAccordingISONorm(Resource):
     def get(self):
 
         """
