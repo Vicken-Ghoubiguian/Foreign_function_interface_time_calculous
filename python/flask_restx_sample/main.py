@@ -11,8 +11,18 @@ api = Api(
 #
 api.init_app(app)
 
+@api.route('/wished_week_day_in_choosen_year')
+class WishedWeekDayInChoosenYear(Resource):
+    def get(self):
+
+        """
+        Get the wished week day in choosen year
+        """
+
+        return {'hello': 'world'}, 200
+
 @api.route('/wished_week_day_in_choosen_month')
-class WishedWdayInChoosenMonth(Resource):
+class WishedWeekDayInChoosenMonth(Resource):
     def get(self):
 
         """
