@@ -1,6 +1,7 @@
 # Importation of all useful libraries
 from tkinter import *
 from tkinter import ttk
+from ctypes import c_time_t
 
 #
 root = Tk()
