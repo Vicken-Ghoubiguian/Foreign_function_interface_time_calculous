@@ -20,7 +20,7 @@ class WishedWeekDayInChoosenYear(Resource):
         Get the wished week day in choosen year
         """
 
-        return {'hello': 'world'}, 200
+        return {'value': 0}, 200
 
 @api.route('/wished_week_day_in_choosen_month')
 class WishedWeekDayInChoosenMonth(Resource):
@@ -30,7 +30,7 @@ class WishedWeekDayInChoosenMonth(Resource):
         Get the wished week day in choosen month
         """
 
-        return {'hello': 'world'}, 200
+        return {'value': 0}, 200
 
 @api.route('/number_of_weeks_in_a_year_according_to_the_iso_norm')
 class NumberWeeksInYearAccordingISONorm(Resource):
@@ -40,7 +40,7 @@ class NumberWeeksInYearAccordingISONorm(Resource):
         Get how many weeks there are in the wished year
         """
 
-        return {'hello': 'world'}, 200
+        return {'value': 0}, 200
 
 if __name__ == '__main__':
     app.run(debug=True)
