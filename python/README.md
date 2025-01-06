@@ -47,7 +47,29 @@ After that, in a fifth time, you have to open the new created file following the
 nano main.py
 ```
 
-Then, 
+Then, you have to write the code below inside the 'main.py' file (all explanations are given in the comments) :
+
+```python
+#
+from ctypes import *
+
+#
+so_time_calculous_file = "time_calculous.so"
+
+#
+time_calculous_functions = CDLL(so_time_calculous_file)
+
+#
+my_functions.number_of_weeks_in_a_year_according_to_the_iso_norm(2025)
+```
+
+Finally, you can execute this script using the last command bellow :
+
+```bash
+python main.py
+```
+
+Congratulations ! It is now YOUR turn to play with all of that examples in the 'python' folder of this repository.
 
 <a name="for_simpliest"></a>
 ### For 'simpliest_sample'
