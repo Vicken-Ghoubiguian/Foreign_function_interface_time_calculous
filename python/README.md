@@ -2,8 +2,8 @@
 
 ## Contents
 
-* [How to deploy the 'time_calculous' C library example by example ?](how_to_deploy_example_by_example),
-* [Useful links](useful_links),
+* [How to deploy the 'time_calculous' C library example by example ?](#how_to_deploy_example_by_example),
+* [Useful links](#useful_links),
 
 <a name="how_to_deploy_example_by_example"></a>
 ## How to deploy the 'time_calculous' C library example by example ?
