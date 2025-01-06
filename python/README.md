@@ -64,6 +64,9 @@ print(time_calculous_functions.number_of_weeks_in_a_year_according_to_the_iso_no
 
 #
 print(time_calculous_functions.wished_number_in_year_is_day_in_choosen_year(1, 1, 2025))
+
+#
+printf(time_calculous_functions.number_of_days_in_choosen_month_in_choosen_year(1, 2025))
 ```
 
 Finally, you can execute this script using the last command bellow :
