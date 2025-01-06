@@ -29,10 +29,10 @@ In a third time, create a Python file using the command bellow :
 touch main.py
 ```
 
-In a fourth time, you have to clone the [time_calculous](https://github.com/Vicken-Ghoubiguian/time_calculous/tree/main) C library in the `your_project_directory` directory using the command bellow :
+In a fourth time, you have to clone the [time_calculous](https://github.com/Vicken-Ghoubiguian/time_calculous) C library in the `your_project_directory` directory using the command bellow :
 
 ```bash
-git clone https://github.com/Vicken-Ghoubiguian/time_calculous/tree/main
+git clone https://github.com/Vicken-Ghoubiguian/time_calculous
 ```
 
 After this, you have to generate the '.so' file (that is the shared library file) following the command bellow (again) :
@@ -60,7 +60,7 @@ so_time_calculous_file = "time_calculous.so"
 time_calculous_functions = CDLL(so_time_calculous_file)
 
 #
-my_functions.number_of_weeks_in_a_year_according_to_the_iso_norm(2025)
+print(time_calculous_functions.number_of_weeks_in_a_year_according_to_the_iso_norm(2025))
 ```
 
 Finally, you can execute this script using the last command bellow :
