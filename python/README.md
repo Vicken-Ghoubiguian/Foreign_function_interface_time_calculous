@@ -63,7 +63,7 @@ time_calculous_functions = CDLL(so_time_calculous_file)
 print(time_calculous_functions.number_of_weeks_in_a_year_according_to_the_iso_norm(2025))
 
 #
-print(wished_number_in_year_is_day_in_choosen_year(1, 1, 2025))
+print(time_calculous_functions.wished_number_in_year_is_day_in_choosen_year(1, 1, 2025))
 ```
 
 Finally, you can execute this script using the last command bellow :
