@@ -11,6 +11,44 @@
 <a name="in_general"></a>
 ### In general
 
+To begin, you have to create your project's directory following the command bellow :
+
+```bash
+mkdir your_project_directory
+```
+
+In a second time, you have to position using the command bellow :
+
+```bash
+cd your_project_directory
+```
+
+In a third time, create a Python file using the command bellow :
+
+```bash
+touch main.py
+```
+
+In a fourth time, you have to clone the [time_calculous](https://github.com/Vicken-Ghoubiguian/time_calculous/tree/main) C library in the `your_project_directory` directory using the command bellow :
+
+```bash
+git clone https://github.com/Vicken-Ghoubiguian/time_calculous/tree/main
+```
+
+After this, you have to generate the '.so' file (that is the shared library file) following the command bellow (again) :
+
+```bash
+cc -fPIC -shared -o time_calculous.so time_calculous/time_calculous/time_calculous.c
+```
+
+After that, in a fifth time, you have to open the new created file following the command bellow :
+
+```bash
+nano main.py
+```
+
+Then, 
+
 <a name="for_simpliest"></a>
 ### For 'simpliest_sample'
 
